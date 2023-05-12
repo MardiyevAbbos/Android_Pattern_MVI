@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="4dp"
+    android:gravity="center"
+    android:background="@drawable/background_show_and_hide_icon"
+    android:orientation="vertical"
+    android:paddingHorizontal="6dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_transfer_my_cards" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="Kartalarim"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+</LinearLayout>
